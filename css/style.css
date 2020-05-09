@@ -1,0 +1,39 @@
+.html.body {
+    height:100%;
+}
+.main {
+    background-color: #f7d0cb;
+}
+.book {
+    margin-top: 200px
+}
+.book-cover {
+}
+.book-cover-image{
+    height: 500px;
+    width: auto;
+
+}
+.book-text {
+}
+.book-author{
+    font-family: 'Jost', sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+    margin-left:6px;
+}
+.book-title{
+    font-family: 'DM Serif Display', serif;
+    font-size: 90pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 72pt;
+}
+.book-desc {
+    font-family: 'Jost', sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 26pt;
+    margin-left:98px;
+    margin-top: 20px;
+}
