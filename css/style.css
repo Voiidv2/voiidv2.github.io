@@ -1,36 +1,43 @@
 body {
     background-color: #f7d0cb;
     color: #212529;
+    hight: 100%;
     -webkit-user-select: none; /* Safari */
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 }
 
-span {
-    display: block;
+.logo, .book-title {
+    font-family: 'DM Serif Display', serif;
+}
+
+.book-author, .book-desc {
+    font-family: 'Jost', sans-serif;
+}
+
+
+.logo {
+    font-size: 2em;
+    text-transform: lowercase;
 }
 
 .book-author {
-    font-family: 'Jost', sans-serif;
     font-size: 1em;
-
 }
 
 .book-title {
-    font-family: 'DM Serif Display', serif;
     font-size: 5em;
-    line-height: 1em;
+    line-height: 0.9em;
     text-transform: uppercase;
 }
 
 .book-desc {
-    font-family: 'Jost', sans-serif;
     font-size: 1em;
 }
 
 .book-cover-image {
-    height: auto;
+    height: 400px;
     width: auto;
 }
 
@@ -39,7 +46,7 @@ span {
     transition: .2s ease;
     transition-property: all;
     transition-duration: 0.2s;
-    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(.17, .67, .83, .67);
     transition-delay: 0s;
 }
 
