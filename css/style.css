@@ -1,53 +1,37 @@
-.html.body {
-    height:100%;
-}
-.main {
+body {
     background-color: #f7d0cb;
+    color: #212529;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
 
-h1 {
-    font-family: 'DM Serif Display', serif;
+span {
+    display: block;
 }
-.book {
-    margin-top: 200px
-}
-.book-cover {
-}
-.book-cover-image{
-    height: 500px;
-    width: auto;
 
-}
-.book-text {
-}
-.book-author{
+.book-author {
     font-family: 'Jost', sans-serif;
-    font-size: 18pt;
-    font-weight: 400;
-    margin-left:6px;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    font-size: 1em;
+
 }
-.book-title{
+
+.book-title {
     font-family: 'DM Serif Display', serif;
-    font-size: 90pt;
-    font-weight: 400;
+    font-size: 5em;
+    line-height: 1em;
     text-transform: uppercase;
-    line-height: 72pt;
-    -webkit-user-select: none; /* Safari */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
 }
+
 .book-desc {
     font-family: 'Jost', sans-serif;
-    font-size: 14pt;
-    font-weight: 500;
-    line-height: 26pt;
-    margin-left:98px;
-    margin-top: 20px;
+    font-size: 1em;
+}
+
+.book-cover-image {
+    height: auto;
+    width: auto;
 }
 
 .galleryhover img {
@@ -63,4 +47,3 @@ h1 {
     -ms-transform: scale(1.05);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
-}
