@@ -24,7 +24,7 @@ a, a:hover {
 
 /* Text Styling. */
 .logo {
-    font-size: 2em;
+    font-size: 1.5vmax;
     text-transform: lowercase;
 }
 
@@ -116,4 +116,21 @@ a, a:hover {
         flex: 0 0 20%;
         max-width: 20%;
     }
+}
+
+
+/* Grid scale and drop shadow transition*/
+.grid {
+    transition: .2s ease;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(.17, .67, .83, .67);
+    transition-delay: 0s;
+}
+
+.grid:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 0 5px 11px rgba(33, 33, 33, .2);
 }
